@@ -6,7 +6,7 @@
 }
 
 .hero__section{
-    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background: url(images/heroSectionBackground.png);
     background-size: cover;
     background-position: center;
     color: white;
@@ -43,6 +43,7 @@
     display: none;
 }
 
+
 .hero__section_container{
     display: flex;
     flex-direction: column;
@@ -56,12 +57,13 @@
 .hero__section_logo{
     width: 200px;
     height: 40px;
+    /* height: auto; */
 }
 
 .hero__section_title{
     text-align: center;
     font-size: 30px;
-    font-weight:380;
+    font-weight: 380;
 }
 
 .hero__section_input_container{
@@ -82,6 +84,8 @@
     outline: none;
 }
 
+
+
 .input_container_location{
     width: 35%;
     border-right: 2px solid #e0e0e0;
@@ -90,6 +94,7 @@
 .input_container_search{
     width: 65%;
 }
+
 
 /* Screen Size is from 0-600 i.e., smaller/mobile screen */
 @media only screen and (max-width: 600px){
@@ -208,19 +213,19 @@
 }
 
 .card1{
-    background-image: url('https://th.bing.com/th/id/R.a711ff3b3c475a45c2480de041e5ebe4?rik=AcEfvV2W%2fyPi1g&riu=http%3a%2f%2fpublin.ie%2fwp-content%2fuploads%2f2015%2f03%2fIMG_4068.jpg&ehk=HnmyyuKBNUsJg7HHnxElY16D3XdktOZv0uB92B4Rw9U%3d&risl=&pid=ImgRaw&r=0');
+    background-image: url('images/collection1.jpg');
 }
 
 .card2{
-    background-image: url('https://muslimnow.net/wp-content/uploads/2023/02/ramzan-dates-main-750x445.webp');
+    background-image: url('images/collection2.jpg');
 }
 
 .card3{
-    background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMDAnAszoZTUyWrfEwBpgKtii6IfQB3sJd35YYS8gCUaP0ftiF');
+    background-image: url('images/collection3.jpg');
 }
 
 .card4{
-    background-image: url('https://th.bing.com/th/id/OIP.9mjItIndkJ3TTVxRLJ_YIwHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-image: url('images/collection4.jpg');
 }
 
 /* rgba => Red, Green, Blue, Opacity */
@@ -370,7 +375,7 @@
 }
 
 /* Media Queries For Download App */
-
+/* 0-1300 */
 @media only screen and (max-width: 1300px){
     .get__the_app .semiContainer .left,
     .get__the_app .semiContainer .right{
@@ -450,14 +455,12 @@
     margin-bottom: 5px;
     letter-spacing: 0.8px;
 }
-
 .footer__link{
     text-decoration: none;
     color: gray;
     font-size: 12.5px;
     font-weight: 300;
 }
-
 .footer__link:hover{
     color: black;
 }
@@ -480,11 +483,9 @@
     /* Vertical / y-axis */
     justify-content: center;
 }
-
 .footer__section_logos{
-    width: 65%;
+    width: 100%;
 }
-
 .disclamer{
     width: 95%;
     color: gray;
@@ -492,19 +493,16 @@
     border-top: 1px solid gray;
     padding-top: 1.5rem;
 }
-
 @media only screen and (max-width: 900px){
     .navigation_container{
             grid-template-columns: repeat(3, 1fr);
     }
 }
-
 @media only screen and (max-width: 500px){
     .navigation_container{
             grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media only screen and (max-width: 320px){
     .navigation_container{
             grid-template-columns: repeat(1, 1fr);
